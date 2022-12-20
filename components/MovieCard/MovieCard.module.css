@@ -1,0 +1,10 @@
+.movie_card_image {
+  width: 300px !important;
+  height: 150px !important;
+  object-fit: cover !important;
+}
+
+.card_container {
+  width: 300px !important;
+  margin: 30px 0px !important;
+}
