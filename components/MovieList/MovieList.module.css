@@ -1,0 +1,38 @@
+.movie_card_container {
+  margin-top: 10px;
+}
+
+.movie_type_title {
+  font-family: "DM Sans" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 20px !important;
+  margin: 0px 0px 0px 15px !important;
+}
+
+@media (min-width: 992px) {
+  .movie_type_title {
+    margin: 0px 0px 0px 30px !important;
+  }
+}
+
+.carousel_container {
+  padding: 10px 0px !important;
+}
+
+.error_type_title {
+  font-family: "DM Sans" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 20px !important;
+  color: red !important;
+  text-align: center !important;
+  margin: 20px 0px !important;
+}
+
+.loadingState {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  align-items: center;
+}

@@ -1,0 +1,32 @@
+.bg_image_container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.image_text {
+  position: absolute;
+  left: 77px;
+  top: 247px;
+  font-family: "DM Sans" !important;
+  font-style: normal;
+  font-weight: 700 !important;
+  font-size: 1000px;
+  line-height: 94px;
+  color: #ffffff !important;
+  letter-spacing: -0.05em;
+}
+
+@media (max-width: 750px) {
+  .image_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 72px;
+    line-height: 94px;
+  }
+}
